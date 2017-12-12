@@ -25,7 +25,7 @@ headers = {
     'Upgrade-Insecure-Requests': '1',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
     }
-# 打开session。
+# 打开session
 session = requests.Session()
 # 保存cookies
 session.cookies = cookielib.LWPCookieJar(filename='cookies')
